@@ -1,0 +1,6 @@
+Button {
+  width: 10%;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+}

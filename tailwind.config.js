@@ -6,6 +6,10 @@ module.exports = {
       backgroundImage: {
         obscure: "url('images/space-g1dc8bff49_1920.png')",
       },
+
+      fontFamily: {
+        Starwars: "'Starjedi' , serif",
+      },
     },
   },
   plugins: [],
