@@ -1,7 +1,10 @@
 import React from "react";
+import Bgvideo from "../components/Bgvideo";
 
-function Home() {
-  return <div>Hello Travel Wilders!</div>;
+export default function Home() {
+  return (
+    <div className="w-screen relative">
+      <Bgvideo className="bg-clip-border" />
+    </div>
+  );
 }
-
-export default Home;

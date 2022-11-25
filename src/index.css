@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@layer base {
+  @font-face {
+    font-family: Starjedi;
+    font-weight: 400;
+    src: local("Starjedi"), url(./fonts/Starjedi.ttf) format("truetype");
+  }
+}
